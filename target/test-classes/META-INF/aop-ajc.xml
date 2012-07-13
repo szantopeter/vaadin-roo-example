@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="org.szanto.domain.PizzaDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="org.szanto.domain.BaseDataOnDemand_Roo_Configurable"/>
+<aspect name="org.szanto.domain.ToppingIntegrationTest_Roo_Configurable"/>
+<aspect name="org.szanto.domain.PizzaOrderIntegrationTest_Roo_Configurable"/>
+<aspect name="org.szanto.domain.BaseDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="org.szanto.domain.BaseIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="org.szanto.domain.ToppingDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="org.szanto.domain.PizzaIntegrationTest_Roo_Configurable"/>
+<aspect name="org.szanto.domain.PizzaOrderDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="org.szanto.domain.ToppingDataOnDemand_Roo_Configurable"/>
+<aspect name="org.szanto.domain.ToppingIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="org.szanto.domain.PizzaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="org.szanto.domain.PizzaDataOnDemand_Roo_Configurable"/>
+<aspect name="org.szanto.domain.PizzaOrderIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="org.szanto.domain.BaseIntegrationTest_Roo_Configurable"/>
+<aspect name="org.szanto.domain.PizzaOrderDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

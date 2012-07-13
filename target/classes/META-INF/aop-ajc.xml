@@ -1,0 +1,35 @@
+<aspectj>
+<aspects>
+<aspect name="org.szanto.web.ui.PizzaOrderView_Roo_VaadinEntityView"/>
+<aspect name="org.szanto.web.AbstractEntityView_Roo_AbstractEntityView"/>
+<aspect name="org.szanto.web.ui.BaseForm_Roo_VaadinVisuallyComposableEntityForm"/>
+<aspect name="org.szanto.domain.Topping_Roo_ToString"/>
+<aspect name="org.szanto.domain.PizzaOrder_Roo_Configurable"/>
+<aspect name="org.szanto.domain.PizzaOrder_Roo_JavaBean"/>
+<aspect name="org.szanto.domain.PizzaOrder_Roo_Jpa_Entity"/>
+<aspect name="org.szanto.domain.PizzaOrder_Roo_Jpa_ActiveRecord"/>
+<aspect name="org.szanto.domain.Pizza_Roo_Configurable"/>
+<aspect name="org.szanto.domain.Pizza_Roo_Jpa_ActiveRecord"/>
+<aspect name="org.szanto.domain.Pizza_Roo_JavaBean"/>
+<aspect name="org.szanto.domain.Base_Roo_Jpa_ActiveRecord"/>
+<aspect name="org.szanto.domain.Base_Roo_Jpa_Entity"/>
+<aspect name="org.szanto.domain.Pizza_Roo_Jpa_Entity"/>
+<aspect name="org.szanto.domain.Base_Roo_ToString"/>
+<aspect name="org.szanto.domain.Topping_Roo_Jpa_ActiveRecord"/>
+<aspect name="org.szanto.web.ui.ToppingView_Roo_VaadinEntityView"/>
+<aspect name="org.szanto.web.ui.PizzaView_Roo_VaadinEntityView"/>
+<aspect name="org.szanto.web.ui.PizzaForm_Roo_VaadinVisuallyComposableEntityForm"/>
+<aspect name="org.szanto.web.PizzaShopEntityManagerView_Roo_VaadinEntityManagerView"/>
+<aspect name="org.szanto.web.ui.ToppingForm_Roo_VaadinVisuallyComposableEntityForm"/>
+<aspect name="org.szanto.domain.PizzaOrder_Roo_ToString"/>
+<aspect name="org.szanto.domain.Topping_Roo_JavaBean"/>
+<aspect name="org.szanto.domain.Topping_Roo_Jpa_Entity"/>
+<aspect name="org.szanto.web.ui.PizzaOrderForm_Roo_VaadinVisuallyComposableEntityForm"/>
+<aspect name="org.szanto.web.ui.BaseView_Roo_VaadinEntityView"/>
+<aspect name="org.szanto.domain.Pizza_Roo_ToString"/>
+<aspect name="org.szanto.domain.Base_Roo_JavaBean"/>
+<aspect name="org.szanto.domain.Base_Roo_Configurable"/>
+<aspect name="org.szanto.domain.Topping_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,48 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-06-25 17:29:40
+project --topLevelPackage org.szanto --projectName vaadin-roo-example --java 6
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-06-25 17:29:42
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-06-25 17:29:48
+download accept terms of use
+pgp trust --keyId 0xBF0451C0
+addon install bundle --bundleSymbolicName com.vaadin.spring.roo.addon
+addon install bundle --bundleSymbolicName com.vaadin.spring.roo.addon
+addon upgrade bundle --bundleSymbolicName com.vaadin.spring.roo.addon
+pgp trust --keyId 0xBF0451C0
+download accept terms of use
+addon install bundle --bundleSymbolicName com.vaadin.spring.roo.addon
+addon search vaadin
+// [failed] addon install id --searchResultId ..
+// [failed] addon install id --searchResultId vaadin
+osgi obr url add --url http://vaadin.com/springroo/repository.xml
+osgi obr start --bundleSymbolicName com.vaadin.spring.roo.addon
+osgi obr url remove --url http://vaadin.com/springroo/repository.xml
+addon install id --searchResultId 1
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-06-25 17:45:20
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-06-25 17:45:57
+ persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity jpa --class ~.domain.Topping --testAutomatically
+field string --fieldName name --notNull --sizeMin 2
+entity jpa --class ~.domain.Base --testAutomatically
+field string --fieldName name --notNull --sizeMin 2
+entity jpa --class ~.domain.Pizza --testAutomatically
+field string --fieldName name --notNull --sizeMin 2
+field number --fieldName price --type java.lang.Float
+field set --fieldName toppings --type ~.domain.Topping
+field reference --fieldName base --type ~.domain.Base
+entity jpa --class ~.domain.PizzaOrder --testAutomatically
+field string --fieldName name --notNull --sizeMin 2
+field string --fieldName address --sizeMax 30
+field number --fieldName total --type java.lang.Float
+field date --fieldName deliveryDate --type java.util.Date
+field set --fieldName pizzas --type ~.domain.Pizza
+perform tests
+osgi obr url add --url http://vaadin.com/springroo/repository.xml
+osgi obr start --bundleSymbolicName com.vaadin.spring.roo.addon
+osgi obr url remove --url http://vaadin.com/springroo/repository.xml
+osgi obr url add --url http://spring-roo-os-commands.googlecode.com/svn/repo/repository.xml
+osgi obr start --bundleSymbolicName net.stsmedia.roo.addon.oscommands
+osgi obr url remove --url http://spring-roo-os-commands.googlecode.com/svn/repo/repository.xml
+vaadin setup --applicationPackage ~.web --baseName PizzaShop --themeName pizza --useJpaContainer false
+vaadin generate all --package ~.web.ui --visuallyComposable true
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-13 12:49:56
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-13 13:06:43
